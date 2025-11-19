@@ -3,6 +3,7 @@
 ## 🧠 Proyecto Final - Inteligencia Artificial y Lenguaje de Señas
 
 Bienvenidos a **GestureGuide**, un proyecto innovador que traduce lenguaje de señas a texto en tiempo real. Desarrollado por Cristian, Frandy, Jensey, y Ronald, este proyecto utiliza modelos de aprendizaje automático y tecnologías avanzadas de detección de gestos para facilitar la comunicación.
+www
 
 ## 🚀 Funcionalidades
 
@@ -29,7 +30,8 @@ GestureGuide/
 ├── models/
 │   └── modeloprueba.keras
 └── README.md
- ```
+```
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **Flask**: Framework web para Python.
@@ -41,7 +43,7 @@ GestureGuide/
 - **gTTS**: Google Text-to-Speech, una biblioteca para convertir texto a habla.
 - **Pygame**: Biblioteca para desarrollar videojuegos en Python, también utilizada para reproducir audio.
 - **Werkzeug (secure_filename)**: Biblioteca que complementa Flask, proporcionando utilidades adicionales.
-- **Otros módulos de Python**: 
+- **Otros módulos de Python**:
   - **os**: Interacción con el sistema operativo.
   - **time (sleep)**: Funciones relacionadas con el tiempo.
   - **typing (NamedTuple)**: Anotaciones de tipo en Python.
@@ -63,7 +65,6 @@ GestureGuide/
   - typing
   - Werkzeug
 
-
 ## 🛠️ Instalación
 
 ### Clonar el Repositorio
@@ -71,27 +72,30 @@ GestureGuide/
 Para clonar este proyecto, sigue los siguientes pasos:
 
 1. **Clona el repositorio**:
-    ```sh
-    git clone https://github.com/FrandyAquino/LenguajeSenas_Web.git
-    cd LenguajeSenas_Web
-    ```
+
+   ```sh
+   git clone https://github.com/FrandyAquino/LenguajeSenas_Web.git
+   cd LenguajeSenas_Web
+   ```
 
 2. **Instala las dependencias**:
-    ```sh
-    pip install -r requirements.txt
-    ```
+
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 3. **Ejecuta la aplicación**:
-    ```sh
-    python app.py
-    ```
+   ```sh
+   python app.py
+   ```
 
 ### 🎥 Uso de la Aplicación
 
 1. **Accede a la aplicación** en tu navegador:
-    ```
-    http://127.0.0.1:5000
-    ```
+
+   ```
+   http://127.0.0.1:5000
+   ```
 
 2. **Permite el acceso a la cámara web** cuando se te solicite.
 
@@ -114,7 +118,7 @@ Si tienes alguna pregunta, no dudes en contactarnos:
 - [Frandy Aquino](https://github.com/FrandyAquino) 👨🏽
 - [Ronald Serre](https://github.com/ronaldserre) 🧑‍💻
 - [Cristian Encarnación](https://github.com/cristianEncarnacion) 🧑🏽‍🦲
-- [Jensey Jimenez](https://github.com/JenseyJim) 🧒 
+- [Jensey Jimenez](https://github.com/JenseyJim) 🧒
 
 ## 📜 Licencia
 
