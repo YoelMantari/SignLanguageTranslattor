@@ -184,54 +184,6 @@ El sistema utiliza los siguientes parámetros configurables en `app.py`:
 
 El modelo utiliza un umbral de confianza de 0.7 por defecto. Puede ajustarse en la función `evaluate_model()`.
 
-## Solución de Problemas
-
-### Problemas Comunes
-
-**Error de cámara no detectada:**
-
-- Verifique que la cámara esté conectada y funcionando
-- Cierre otras aplicaciones que puedan estar usando la cámara
-- Verifique los permisos del navegador para acceder a la cámara
-
-**Error de importación de TensorFlow:**
-
-- Asegúrese de estar usando Python 3.11
-- Verifique que el entorno virtual esté activado
-- Reinstale TensorFlow: `pip uninstall tensorflow && pip install tensorflow==2.16.2`
-
-**Rendimiento lento:**
-
-- Cierre aplicaciones innecesarias
-- Verifique que su sistema cumpla con los requisitos mínimos
-- Considere usar una GPU compatible con TensorFlow
-
-### Logs y Debugging
-
-Para habilitar logs detallados, ejecute la aplicación con:
-
-```bash
-python app.py --debug
-```
-
-## Contribución al Proyecto
-
-### Configuración para Desarrollo
-
-1. Fork el repositorio
-2. Cree una rama para su feature: `git checkout -b feature/nueva-funcionalidad`
-3. Realice sus cambios y pruebas
-4. Commit sus cambios: `git commit -m 'Agregar nueva funcionalidad'`
-5. Push a la rama: `git push origin feature/nueva-funcionalidad`
-6. Abra un Pull Request
-
-### Estándares de Código
-
-- Siga las convenciones PEP 8 para Python
-- Agregue comentarios descriptivos para funciones complejas
-- Incluya pruebas para nuevas funcionalidades
-- Actualice la documentación según sea necesario
-
 ## Créditos y Licencia
 
 ### Desarrolladores
