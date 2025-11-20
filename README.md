@@ -1,4 +1,4 @@
-# GestureGuide - Traductor de Lenguaje de Señas
+# ConnectSigns - Traductor de Lenguaje de Señas
 
 ## Descripción del Proyecto
 
